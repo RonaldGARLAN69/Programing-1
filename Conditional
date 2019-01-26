@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    int grade=100;
+    if (grade>=98 && grade<=100)
+    {
+    printf("VERY GOOD");    
+    }
+    else if (grade>=94 && grade <=97)
+    {
+    printf("GOOD"); 
+    }
+    else if (grade>=88 && grade <=93)
+    {
+    printf("POOR"); 
+    }
+    else if (grade>=60 && grade <=87)
+    {
+    printf("ML PA");
+    }
+    return 0;
+}
